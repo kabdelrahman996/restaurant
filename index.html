@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Yummy</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Yummy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-all">
+      <section
+        class="hero-section d-flex align-items-center justify-content-center text-center"
+        id="hero-section"
+      >
+        <div class="hero-text">
+          <h5>Indulge in the Flavors of Yummy</h5>
+          <h1>Where Culinary Art Meets Timeless Tradition</h1>
+          <p>
+            Discover a dining experience like no other at Yummy. Our
+            chef-inspired dishes bring the freshest ingredients and bold flavors
+            to your table, all within a warm and inviting atmosphere. Join us
+            for a meal that will awaken your senses and leave you craving more.
+          </p>
+          <a href="#" class="btn btn-cta reservation-btn">Make a Reservation</a>
+        </div>
+      </section>
+
+      <section class="food-section d-flex text-center" id="menu">
+        <div class="food-container w-100">
+          <div class="row w-100">
+            <div class="popular-foods col-md-4 text-center">
+              <p>SELECT YOUR MEAL</p>
+              <h3>Popular <span>Foods</span></h3>
+              <ul class="meal-tabs">
+                <li class="list-item-meal breakfast active">
+                  <i class="fa-solid fa-mug-saucer"></i>
+                  Breakfast
+                </li>
+                <li class="list-item-meal lunch">
+                  <i class="fa-solid fa-bacon"></i>
+                  Lunch
+                </li>
+                <li class="list-item-meal dinner">
+                  <i class="fa-solid fa-utensils"></i>
+                  Dinner
+                </li>
+                <li class="list-item-meal drinks">
+                  <i class="fa-solid fa-wine-glass-empty"></i>
+                  Drinks
+                </li>
+              </ul>
+            </div>
+
+            <div class="food-items col-md-8"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dish-of-the-week-section" id="special-dish">
+        <div
+          class="dish-container pt-5 d-flex flex-column align-items-center justify-content-center"
+        >
+          <h2 class="text-center">Dish of the Week</h2>
+          <div class="dish">
+            <div
+              class="dish-details d-flex align-items-center text-center mt-5"
+            >
+              <div class="dish-image mb-5">
+                <img
+                  src="./assets/images/offer1.jpg"
+                  alt="Dish of the Week"
+                  width="500px"
+                />
+              </div>
+              <div class="dish-content">
+                <h4>Bún Riêu</h4>
+                <p class="for-larg" style="display: none">
+                  Indulge in the rich and flavorful world of Vietnamese cuisine
+                  with our weekly special: Bún Riêu. This hearty noodle soup
+                  features a tangy, spicy broth infused with the essence of
+                  tomato, tamarind, and chili peppers. Delicate rice vermicelli
+                  noodles intertwine with a medley of seafood, including
+                  succulent shrimp and crab, adding a delightful texture and
+                  briny taste. For a unique experience, savor the addition of
+                  blood tofu, a soft and savory ingredient that complements the
+                  other flavors perfectly. To complete this culinary
+                  masterpiece, we have garnished the Bún Riêu with a variety of
+                  fresh herbs, providing a burst of aromatic goodness. Whether
+                  you're a seasoned Vietnamese food enthusiast or simply looking
+                  to explore new flavors, Bún Riêu is sure to satisfy your
+                  cravings and leave you wanting more.
+                </p>
+                <p class="for-small">
+                  Savor the rich flavors of Vietnamese cuisine with our weekly
+                  special: Bún Riêu. This tangy noodle soup combines tomato,
+                  tamarind, chili peppers, and seafood, including shrimp and
+                  crab. Garnished with fresh herbs, it's a delicious experience
+                  for both Vietnamese food lovers and newcomers.
+                </p>
+                <p>$12.99</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-cta reservation-btn"
+              >Make a Reservation</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="about-us-section d-flex align-items-center justify-content-center py-5"
+        id="about"
+      >
+        <div class="container p-5">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+              <img
+                src="./assets/images/restaurant.jpg"
+                alt="About Us"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-6 mb-4">
+              <h2 class="mb-4">About Yummy</h2>
+              <p>
+                Welcome to Yummy! We believe that food is more than just
+                sustenance — it’s an experience, a journey, and a passion. Our
+                chefs create mouth-watering dishes that blend traditional
+                recipes with innovative techniques. From fresh ingredients to
+                delightful flavors, we aim to bring you the best culinary
+                experience.
+              </p>
+              <p>
+                Whether you're here for a casual meal or a special occasion,
+                Yummy is your destination for unforgettable dining. Let us share
+                our passion for food with you.
+              </p>
+              <a href="#contact" class="btn btn-cta mt-3">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-us-section py-5" id="contact">
+        <div class="container p-5">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <h2 class="mb-4">Contact Us</h2>
+              <p class="mb-5">
+                We'd love to hear from you! Whether you have a question about
+                our menu, need assistance, or want to provide feedback, feel
+                free to reach out.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-cta btn-block"
+                  id="contact-submit"
+                >
+                  Send Message
+                </button>
+                <span class="succsess d-none"
+                  >Thank you, we will contact with you soon :)</span
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Reservation Section -->
+    <section class="reservation-section d-none" id="reservation">
+      <div
+        class="container h-100 d-flex align-items-center justify-content-center"
+      >
+        <div class="reservation-content text-center">
+          <h2>Make a Reservation</h2>
+          <form id="reservationForm" class="m-4">
+            <div class="mb-3">
+              <label for="reservationName" class="form-label">Your Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="reservationName"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="reservationEmail" class="form-label"
+                >Your Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="reservationEmail"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="reservationDate" class="form-label"
+                >Reservation Date</label
+              >
+              <input
+                type="date"
+                class="form-control"
+                id="reservationDate"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="reservationTime" class="form-label">Time</label>
+              <input
+                type="time"
+                class="form-control"
+                id="reservationTime"
+                required
+              />
+            </div>
+            <button type="submit" class="btn reservation-button btn-block">
+              Submit Reservation
+            </button>
+          </form>
+          <span class="reservation-msg d-none"
+            >You have successfully booked. We are waiting for you.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5>Yummy</h5>
+            <p>
+              Experience the best culinary delights in the heart of the city.
+              Join us for a meal that blends tradition with creativity, leaving
+              you with an unforgettable taste.
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light">Home</a></li>
+              <li><a href="#menu" class="text-light">Menu</a></li>
+              <li><a href="#about" class="text-light">About Us</a></li>
+              <li><a href="#contact" class="text-light">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5>Follow Us</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col text-center">
+            <p class="mb-0">&copy; 2024 Yummy. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

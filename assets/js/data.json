@@ -1,0 +1,98 @@
+[
+  {
+    "breakfast": [
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_1.jpg.webp",
+        "name": "Italian Sauce Mushroom",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_2.jpg.webp",
+        "name": "Salted Fried Chicken",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_3.jpg.webp",
+        "name": "Fried Potato w/ Garlic",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_4.jpg.webp",
+        "name": "Shrimp and Olive",
+        "price": "19:00"
+      }
+    ]
+  },
+  {
+    "lunch": [
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_1_b.jpg.webp",
+        "name": "Italian Sauce Mushroom",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_2_b.jpg.webp",
+        "name": "Salted Fried Chicken",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_3_b.jpg.webp",
+        "name": "Fried Potato w/ Garlic",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_4_b.jpg.webp",
+        "name": "Shrimp and olive",
+        "price": "19:00"
+      }
+    ]
+  },
+  {
+    "dinner": [
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_1.jpg.webp",
+        "name": "Italian Sauce Mushroom",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_2.jpg.webp",
+        "name": "Salted Fried Chicken",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_1.jpg.webp",
+        "name": "Fried Potato w/ Garlic",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_2.jpg.webp",
+        "name": "Shrimp and olive",
+        "price": "19:00"
+      }
+    ]
+  },
+  {
+    "drinks": [
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_1_d.jpg.webp",
+        "name": "Italian Sauce Mushroom",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_2_d.jpg.webp",
+        "name": "Salted Fried Chicken",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_3_d.jpg.webp",
+        "name": "Fried Potato w/ Garlic",
+        "price": "19:00"
+      },
+      {
+        "image": "https://preview.colorlib.com/theme/meal2/images/img_4_d.jpg.webp",
+        "name": "Shrimp and olive",
+        "price": "19:00"
+      }
+    ]
+  }
+]
